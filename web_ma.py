@@ -1,7 +1,5 @@
 import pandas as pd
-import plotly.express as px
 import streamlit as st
-import base64
 import numpy as np
 from kmodes.kprototypes import KPrototypes
 from sklearn import preprocessing
@@ -9,7 +7,6 @@ from sklearn.metrics import silhouette_score
 from yellowbrick.cluster import silhouette_visualizer
 from yellowbrick.cluster import SilhouetteVisualizer
 from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
 import pickle
 
 
